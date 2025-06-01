@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VietTrungTravelmate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.jpg" type="image/jpg">
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-sky-600 text-white p-4 flex justify-between items-center shadow-md">
+    <div class="flex items-center space-x-4">
+      <img src="logo.jpg" alt="Logo công ty" class="h-10 w-10 rounded-full">
+      <h1 class="text-2xl font-bold">VietTrungTravelmate</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="#gioi-thieu" class="hover:underline">Giới thiệu</a>
+      <a href="#tour-trung-quoc" class="hover:underline">Tour Trung Quốc</a>
+      <a href="#tour-viet-nam" class="hover:underline">Tour Việt Nam</a>
+      <a href="#dich-vu" class="hover:underline">Dịch vụ</a>
+      <a href="#khach-hang" class="hover:underline">Khách hàng</a>
+      <a href="#lien-he" class="hover:underline">Liên hệ</a>
+    </nav>
+  </header>
+
+  <!-- Slogan -->
+  <section class="bg-sky-500 text-white text-center py-10">
+    <h2 class="text-3xl font-semibold">“Chuyên nghiệp từng hành trình - Khác biệt trong từng chuyến đi”</h2>
+  </section>
+
+  <!-- Giới thiệu -->
+  <section id="gioi-thieu" class="p-6 bg-white max-w-5xl mx-auto">
+    <h3 class="text-2xl font-bold text-sky-700 mb-4">Giới thiệu</h3>
+    <p class="mb-2">Tại <strong>VietTrungTravelmate</strong>, chúng tôi chuyên cung cấp những trải nghiệm du lịch quốc tế đặc sắc giữa Việt Nam và Trung Quốc.</p>
+    <p class="mb-2">Đội ngũ chuyên gia du lịch tận tâm xây dựng các hành trình cá nhân hóa bao gồm chỗ ở cao cấp, phương tiện di chuyển thuận tiện, tổ chức sự kiện, hướng dẫn viên chuyên nghiệp và những trải nghiệm bản địa độc đáo.</p>
+    <p class="mb-2">Với cam kết về chất lượng, uy tín và sự hài lòng của khách hàng, chúng tôi mang đến những chuyến đi chân thực, trọn vẹn và đáng nhớ, được thiết kế riêng theo sở thích của từng du khách.</p>
+    <p>Hãy để VietTrungTravelmate trở thành người bạn đồng hành tin cậy trên hành trình khám phá văn hóa và cảnh sắc tuyệt vời giữa Việt Nam và Trung Quốc.</p>
+  </section>
+
+  <!-- Tour Trung Quốc -->
+  <section id="tour-trung-quoc" class="p-6 bg-blue-100">
+    <h3 class="text-2xl font-bold text-sky-700 mb-4 text-center">Tour Trung Quốc</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+      <!-- Tour Nam Ninh -->
+      <div class="bg-white rounded shadow p-4">
+        <h4 class="text-xl font-semibold mb-2">Khám phá Nam Ninh</h4>
+        <ul class="list-disc list-inside mb-2">
+          <li>Thời gian: Thứ 6 hàng tuần</li>
+          <li>Giá: 3.690.000đ / người</li>
+          <li>Khởi hành: Cửa khẩu Móng Cái (30/9/2025)</li>
+          <li>Dịch vụ: Visa, ăn uống, nghỉ ngơi, phiên dịch, đi lại</li>
+        </ul>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <img src="anh1.jpg" alt="Tháp Văn Xương">
+          <img src="anh2.jpg" alt="Thái Bình Cổ Trấn">
+          <img src="anh3.jpg" alt="Công viên Thanh Tú Sơn">
+          <img src="anh4.jpg" alt="Nam Ninh chi dạ">
+        </div>
+      </div>
+
+      <!-- Tour Shangrila -->
+      <div class="bg-white rounded shadow p-4">
+        <h4 class="text-xl font-semibold mb-2">Hà Khẩu – Đại Lý – Lệ Giang – Shangrila</h4>
+        <ul class="list-disc list-inside mb-2">
+          <li>Thời gian: 6 ngày 5 đêm</li>
+          <li>Giá: 12.000.000đ / người</li>
+          <li>Khởi hành: Hà Nội (Thứ 2 hàng tuần)</li>
+          <li>Dịch vụ: Visa, ăn uống, nghỉ ngơi, phiên dịch, đi lại</li>
+        </ul>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <img src="anh5.jpg" alt="Hà Khẩu">
+          <img src="anh6.jpg" alt="Đại Lý">
+          <img src="anh7.jpg" alt="Lệ Giang">
+          <img src="anh8.jpg" alt="Shangrila">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Việt Nam -->
+  <section id="tour-viet-nam" class="p-6 bg-white">
+    <h3 class="text-2xl font-bold text-sky-700 mb-4 text-center">Tour Việt Nam</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+      <!-- Tour Hà Giang -->
+      <div class="bg-blue-50 p-4 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Tour Hà Giang</h4>
+        <ul class="list-disc list-inside">
+          <li>Thời gian: 3 ngày 2 đêm</li>
+          <li>Khởi hành: Thứ 5 hàng tuần</li>
+          <li>Giá: 3.000.000đ</li>
+          <li>Điểm xuất phát: Hà Nội</li>
+        </ul>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <img src="anh9.jpg" alt="">
+          <img src="anh10.jpg" alt="">
+          <img src="anh11.jpg" alt="">
+          <img src="anh12.jpg" alt="">
+          <img src="anh13.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Tour Mộc Châu -->
+      <div class="bg-blue-50 p-4 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Tour Mộc Châu</h4>
+        <ul class="list-disc list-inside">
+          <li>Thời gian: 3 ngày 2 đêm</li>
+          <li>Khởi hành: Thứ 5 hàng tuần</li>
+          <li>Giá: 3.000.000đ</li>
+          <li>Điểm xuất phát: Hà Nội</li>
+        </ul>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <img src="anh14.jpg" alt="">
+          <img src="anh15.jpg" alt="">
+          <img src="anh16.jpg" alt="">
+          <img src="anh17.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dịch vụ khác -->
+  <section id="dich-vu" class="p-6 bg-gray-100">
+    <h3 class="text-xl font-bold text-gray-700">Các dịch vụ khác</h3>
+    <p class="text-sm text-gray-500">[Đang cập nhật]</p>
+  </section>
+
+  <!-- Khách hàng -->
+  <section id="khach-hang" class="p-6 bg-white">
+    <h3 class="text-xl font-bold text-gray-700">Khách hàng</h3>
+    <p class="text-sm text-gray-500">[Đang cập nhật]</p>
+  </section>
+
+  <!-- Liên hệ -->
+  <section id="lien-he" class="p-6 bg-gray-100">
+    <h3 class="text-xl font-bold text-gray-700 mb-4">Liên hệ</h3>
+    <form class="max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Họ và tên" class="w-full p-2 border rounded">
+      <input type="email" placeholder="Email" class="w-full p-2 border rounded">
+      <textarea rows="4" placeholder="Nội dung" class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700">Gửi</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-sky-700 text-white text-center py-4 mt-6">
+    <p>&copy; 2025 VietTrungTravelmate. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
